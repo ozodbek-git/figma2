@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav {
+    width: 80%;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid wheat;
+}
+.header__top a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* header__center */
+
+.header__center {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__center__start {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.header__center__start p{
+    font-size: 30px ;
+    display: flex;
+    
+}
+label{
+    display: flex;
+    flex: 1;
+     margin-right: 30px;
+     border: 1px solid #6F73EE;
+}
+label input{
+    flex: 1;
+    font-size: 20px;
+   
+}
+  .header__center__start button{
+    padding: 20px;
+    background-color: #6F73EE;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.i{
+    border: 20px;
+}
+.header__center__start button{
+
+}
+label  button{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;     
+}
+.imgs img{
+    font-size: 40px;
+    gap: 20px;
+}
+.header__bottom{
+    width: 100%;
+    background-color: #F4F7FB;
+    
+}
+.header__bottom__mein{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.header__bottom__text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.header__bottom__icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #6F73EE ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__bottom__P{
+    display: flex;
+}
+.header__bottom__ICON{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    }
+.header__bottom__text p:hover{
+    background-color: #6F73EE;
+    border-radius: 30px;
+}
+.header__bottom__INPUT{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* HERO */
+
+
+.HERO{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    color: white;
+    flex-direction: column;
+        background: radial-gradient(58.73% 541.94% at 75.14% 62.23%, #A6A9FF 0%, #6F73EE 100%)
+   
+
+}
+    .HERO button :hover{
+    cursor: pointer;
+    background-color: wheat;
+}
+.hero__mein{
+    width: 80%;
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+    line-height: 40px;
+
+}
+.hero__start__button button{
+    margin-bottom: 50px;
+    padding: 1px 1px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.hero__start button{
+    padding: 20px 20px ;
+    border: none;
+    background-color: #FFFF;
+    border-radius: 5px;
+}
+
+.hero__mein__bottom{
+    width: 100%;
+    display: flex;
+    54t
+    bbbbbbb Manchester Unit
+}
+.bottom{
+    width: 80%;
+    display: flex;
+    gap: 50px;
+}
+.bottom__mein p{
+    font-size: 15px;
+}
+.bottom__mein{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
