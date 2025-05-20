@@ -19,12 +19,37 @@
 .header__top {
     display: flex;
     justify-content: space-between;
-    border: 1px solid wheat;
+    border-bottom: 2px solid gray;
+    padding: 5px;
+
 }
-.header__top a{
+.header__hero__herobottom{
+    border: 2px dashed gray;
+}
+
+.header__top a {
     color: black;
     text-decoration: none;
     cursor: pointer;
+    font-size: 12px;
+}
+
+.header__top img {
+    cursor: pointer;
+}
+
+.header__start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header__end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
 }
 
 /* header__center */
@@ -35,7 +60,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .header__center__start {
     width: 100%;
     height: 70px;
@@ -44,149 +68,253 @@
     align-items: center;
     gap: 30px;
 }
-.header__center__start p{
-    font-size: 30px ;
+
+.header__center__start p {
+    font-size: 30px;
     display: flex;
-    
+
 }
-label{
-    display: flex;
-    flex: 1;
-     margin-right: 30px;
-     border: 1px solid #6F73EE;
-}
-label input{
-    flex: 1;
-    font-size: 20px;
-   
-}
-  .header__center__start button{
-    padding: 20px;
+
+.Каталог {
+    padding: 14px 25px;
     background-color: #6F73EE;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    color: white;
 }
-.i{
-    border: 20px;
+
+.header__center__input__buttom {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px solid #6F73EE;
 }
-.header__center__start button{
+
+.header__center__input__buttom input {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.i {
+    background-color: #6F73EE;
+    border-radius: 2px;
+    border: none;
+    padding: 12px 15px;
+    color: white;
+}
+
+.Везде {
+    height: 100%;
+    background-color:#cccfd4;
+    border-radius: 2px;
+    border: none;
+    padding: 12px 15px;
+    color: #282739;
 
 }
-label  button{
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;     
-}
-.imgs img{
+
+
+.imgs img {
     font-size: 40px;
     gap: 20px;
 }
-.header__bottom{
+.korzina{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* header bottom */
+
+
+.header__bottom {
     width: 100%;
     background-color: #F4F7FB;
-    
+
 }
-.header__bottom__mein{
+
+.header__bottom__mein {
     width: 80%;
     display: flex;
     align-items: center;
 }
-.header__bottom__text{
+
+.header__bottom__text {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
 }
-.header__bottom__icon{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #6F73EE ;
+.header__bottom__INPUT {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 50px;
+    cursor: pointer;
 }
-.header__bottom__P{
+
+
+.header__bottom__P {
     display: flex;
+    gap: 20px;
+    cursor: pointer;
 }
-.header__bottom__ICON{
+
+.header__bottom__ICON {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5px;
     cursor: pointer;
-    }
-.header__bottom__text p:hover{
-    background-color: #6F73EE;
-    border-radius: 30px;
 }
-.header__bottom__INPUT{
+
+.header__bottom__text p:hover {
+    background-color: #6F73EE;
+    border-radius: 20px;
+    padding:0 4px ;
+}
+
+
+
+.header__bottom__icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #6F73EE;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;
+    font-size: 8px;
+    gap: 10px;
+    cursor: pointer;
+}
+.header__bottom__text p{
+    cursor: pointer;
 }
 
 
 /* HERO */
-
-
-.HERO{
-    width:100%;
+  .HERO{
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    color: white;
-    flex-direction: column;
-        background: radial-gradient(58.73% 541.94% at 75.14% 62.23%, #A6A9FF 0%, #6F73EE 100%)
-   
-
-}
-    .HERO button :hover{
-    cursor: pointer;
-    background-color: wheat;
-}
-.hero__mein{
+    background: radial-gradient(58.73% 541.94% at 75.14% 62.23%, #A6A9FF 0%, #6F73EE 100%) ;
+    border-radius: 5px;
+  }
+  .hero__mein{
     width: 80%;
     display: flex;
     align-items: center;
-     justify-content: space-between;
-    line-height: 40px;
+    justify-content:space-between;
+    
+  }
 
-}
-.hero__start__button button{
-    margin-bottom: 50px;
-    padding: 1px 1px;
-    border: none;
+  .hero__start{
+     line-height: 40px;
+     color: white;
+  }
+  .Новинка{
+    margin-bottom: 40px;
+    padding: 3px 3px;
+    background-color: #6F73EE;
+    border: 1px solid white;
+    color: white;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0);
-    cursor: pointer;
-}
-.hero__start button{
-    padding: 20px 20px ;
-    border: none;
-    background-color: #FFFF;
+  }
+  .hero__start h1{
+    font-size: 35px;
+    color: white;
+  }
+  .Перейтивкатолог{
+    padding: 15px 10px;
     border-radius: 5px;
-}
+    color: #6F73EE;
+    border: none;
+  }
 
+
+/* bottom */
 .hero__mein__bottom{
     width: 100%;
     display: flex;
-    54t
-    bbbbbbb Manchester Unit
+    align-items: center;
+    justify-content: center;
 }
-.bottom{
+
+.bottom {
     width: 80%;
     display: flex;
-    gap: 50px;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
 }
-.bottom__mein p{
+
+.bottom__mein p {
     font-size: 15px;
 }
-.bottom__mein{
+
+.bottom__mein {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 11px;
+}
+.bottom__mein p{
+    color: rgb(74, 74, 74);
+}
+.hero__end img{
+    height: 100%;
+    margin-top: 0px;
+}
+.herobutton button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: white;
+}
+.button__left__img{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.button__right p i{
+ color: yellow;   
+}
+button{
+cursor: pointer;
+}
+
+/* elektrosamakat */
+
+.elektrosamakat{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.escardlar{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-image: url(/imgs/escard.png); */
+    background-repeat: no-repeat;
+    
 }
 
